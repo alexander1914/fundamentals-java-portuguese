@@ -1,4 +1,4 @@
-package br.com.udemy.variaveis;
+package br.com.udemy.fundamentals.java.variaveis;
 
 public class Variaveis {
     public static void main(String[] args) {
