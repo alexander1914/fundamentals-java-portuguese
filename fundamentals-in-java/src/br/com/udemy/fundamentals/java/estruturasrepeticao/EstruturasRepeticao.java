@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class EstruturasRepeticao {
     public static void main(String[] args) {
-        //TODO: Estruturas de repetição são para fazer laços de repetições
+        //TODO: Estruturas de repetição
+        // são para fazer laços de repetições
 
         int idade = 1;
         String nome;
@@ -12,7 +13,8 @@ public class EstruturasRepeticao {
         //Scanner: para receber dados do teclado
         Scanner teclado = new Scanner(System.in);
 
-        //TODO: While é tipo estrutura de repetição sempre checa o valor antes de entrar
+        //TODO: While
+        // é tipo estrutura de repetição sempre checa o valor antes de entrar
         while (idade > 0){
             System.out.println("Informe seu nome: ");
             nome = teclado.nextLine();
@@ -26,7 +28,8 @@ public class EstruturasRepeticao {
             break;
         }
 
-        // TODO: Do while primeiro segue as instruções e depois valida com while a condição
+        // TODO: Do while
+        //  primeiro segue as instruções e depois valida com while a condição
         do {
             System.out.println("Informe seu nome: ");
             nome = teclado.nextLine();
@@ -42,7 +45,8 @@ public class EstruturasRepeticao {
         }while (idade > 0);
 
 
-        //TODO: For é uma estrutura de repetição com condição de parada e forma de incremento
+        //TODO: For
+        // é uma estrutura de repetição com condição de parada e forma de incremento
         for (int i = 0; i < 5; i++){
             System.out.println("Informe seu nome: ");
             nome = teclado.nextLine();

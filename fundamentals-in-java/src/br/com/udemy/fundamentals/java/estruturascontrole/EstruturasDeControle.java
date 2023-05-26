@@ -2,7 +2,8 @@ package br.com.udemy.fundamentals.java.estruturascontrole;
 
 public class EstruturasDeControle {
     public static void main(String[] args) {
-        //TODO: IF, ELSE e IFELSE são estruturas de decisões do java
+        //TODO: IF, ELSE e IFELSE
+        // são estruturas de decisões do java
 
         int numero = 5;
         if(numero > 5){
