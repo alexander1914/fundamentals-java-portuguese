@@ -1,6 +1,3 @@
-# fundamentals-java-portuguese
-Rigth now, I am learning the fundalmentals in java on udemy
-
 <h1 align="center">Hi 👋, I'm Alexander Oliveira</h1>
 <h3 align="center">A passionate back-end developer from Brazil</h3>
 
