@@ -35,7 +35,16 @@ public class Pessoa {
         this.email = email;
     }
 
+    //TODO: Overriding / Sobrescrita de método
     public String toString(){
         return "Nome: " + this.nome + "\nAno Nascimento: " + this.ano_nascimento;
+    }
+
+    //TODO: Overloading / Sobrecarga de método
+    public void mensagem(){
+        System.out.println("Esta é a minha mensagem");
+    }
+    public void mensagem(String msg){
+        System.out.println(msg);
     }
 }
