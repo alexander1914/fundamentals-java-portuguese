@@ -12,6 +12,8 @@ public class Conta {
     private float limite;
     private Cliente cliente;
 
+    public Conta(){}
+
     public Conta(int numero, float saldo, float limite, Cliente cliente){
         this.numero = numero;
         this.saldo = saldo;
@@ -58,5 +60,20 @@ public class Conta {
      */
     public void depositar(float valor){
         this.saldo = this.saldo + valor;
+    }
+
+    @Override
+    public String toString() {
+        return STR."O saldo da conta é : \{this.getSaldo()}";
+    }
+    @Override
+    public boolean equals(Object object){
+        //TODO: instanceof: é uma função para validar se é uma instância do Objeto.
+        if (!(object instanceof Conta)) {
+            return false;
+        }else{
+            Conta verificar = (Conta) object;
+            return verificar.getSaldo() == this.getSaldo();
+        }
     }
 }

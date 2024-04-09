@@ -1,6 +1,6 @@
 package br.com.udemy.fundamentals.java.encapsulamento;
 
-public class Cliente {
+public class Cliente extends Conta {
     private String nome;
     private String endereco;
 
