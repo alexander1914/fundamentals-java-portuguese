@@ -59,9 +59,16 @@ public class Conta {
      * @param valor a ser depositado
      */
     public void depositar(float valor){
-        this.saldo = this.saldo + valor;
+        //TODO: synchronized: é uma função java para sincronizar o conteúdo.
+        synchronized (this){
+            this.saldo = this.saldo + valor;
+        }
     }
-
+    /*
+    //TODO: Forma 2: é a melhor forma para aplicar o sincronizad function
+    public synchronized void depositar(float valor){
+        this.saldo = this.saldo + valor;
+    }*/
     @Override
     public String toString() {
         return STR."O saldo da conta é : \{this.getSaldo()}";
