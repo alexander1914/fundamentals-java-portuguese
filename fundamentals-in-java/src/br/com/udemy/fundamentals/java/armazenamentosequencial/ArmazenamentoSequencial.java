@@ -1,4 +1,7 @@
 package br.com.udemy.fundamentals.java.armazenamentosequencial;
+
+import static java.lang.StringTemplate.STR;
+
 //TODO: Armazenamento sequencial:
 public class ArmazenamentoSequencial {
     public static void main(String[] args) {
